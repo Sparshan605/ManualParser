@@ -1,0 +1,1112 @@
+[
+  {
+    "code": "RA-1",
+    "tag": "RA-1",
+    "primary_code": "RA-1",
+    "description": "Stop",
+    "coc_code": "11-001",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "90 x 90"
+    },
+    "image": "images/RA-1.png",
+    "source_page": 160
+  },
+  {
+    "code": "RA-1S4",
+    "tag": "RA-1S4",
+    "primary_code": "RA-1S4",
+    "description": "All Way Stop Tab",
+    "coc_code": "11-008",
+    "sizes": {
+      "custom": "--",
+      "regular": "40 x 25",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/RA-1S4.png",
+    "source_page": 160
+  },
+  {
+    "code": "RA-2",
+    "tag": "RA-2",
+    "primary_code": "RA-2",
+    "description": "Yield",
+    "coc_code": "11-002",
+    "sizes": {
+      "custom": "--",
+      "regular": "60",
+      "large": "75",
+      "oversized": "90"
+    },
+    "image": "images/RA-2.png",
+    "source_page": 160
+  },
+  {
+    "code": "RB-17",
+    "tag": "RB-17",
+    "primary_code": "RB-17",
+    "description": "Turn on Red Prohibited",
+    "coc_code": "11-224 11-225",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 90",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/RB-17.png",
+    "source_page": 160
+  },
+  {
+    "code": "RB-23",
+    "tag": "RB-23",
+    "primary_code": "RB-23",
+    "description": "Entry Prohibited",
+    "coc_code": "11-240",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "90 x 90"
+    },
+    "image": "images/RB-23.png",
+    "source_page": 160
+  },
+  {
+    "code": "RB-25",
+    "tag": "RB-25",
+    "primary_code": "RB-25",
+    "description": "Keep Right/Left",
+    "coc_code": "11-250 11-251",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "60 x 75",
+      "oversized": "--"
+    },
+    "image": "images/RB-25.png",
+    "source_page": 160
+  },
+  {
+    "code": "",
+    "tag": "Overhead Right/ Left",
+    "primary_code": "Overhead",
+    "description": "Overhead Right/ Left",
+    "coc_code": "11-645",
+    "sizes": {
+      "custom": "",
+      "regular": "",
+      "large": "",
+      "oversized": ""
+    },
+    "image": "images/Overhead.png",
+    "source_page": 160
+  },
+  {
+    "code": "RB-41",
+    "tag": "RB-41",
+    "primary_code": "RB-41",
+    "description": "Turn Only",
+    "coc_code": "11-646",
+    "sizes": {
+      "custom": "--",
+      "regular": "90 x 90",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/RB-41.png",
+    "source_page": 160
+  },
+  {
+    "code": "RB-24",
+    "tag": "RB-24",
+    "primary_code": "RB-24",
+    "description": "Two-Way Traffic",
+    "coc_code": "11-789",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "60 x 75",
+      "oversized": "90 x 105"
+    },
+    "image": "images/RB-24.png",
+    "source_page": 161
+  },
+  {
+    "code": "RB-51",
+    "tag": "RB-51",
+    "primary_code": "RB-51",
+    "description": "Parking Prohibited",
+    "coc_code": "03-003",
+    "sizes": {
+      "custom": "--",
+      "regular": "30 x 30",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/RB-51.png",
+    "source_page": 161
+  },
+  {
+    "code": "RB-55",
+    "tag": "RB-55",
+    "primary_code": "RB-55",
+    "description": "Stopping Prohibited",
+    "coc_code": "04-003",
+    "sizes": {
+      "custom": "--",
+      "regular": "30 x 30",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/RB-55.png",
+    "source_page": 161
+  },
+  {
+    "code": "RB",
+    "tag": "RB",
+    "primary_code": "RB",
+    "description": "Through Traffic Keep Right/Left",
+    "coc_code": "11-796 11-797",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 105",
+      "large": "90 x 120",
+      "oversized": "--"
+    },
+    "image": "images/RB.png",
+    "source_page": 161
+  },
+  {
+    "code": "RB",
+    "tag": "RB",
+    "primary_code": "RB",
+    "description": "Mandatory Left/ Right Lane Turn Left",
+    "coc_code": "11-798 11-799",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "60 x 75",
+      "oversized": "90 x 120"
+    },
+    "image": "images/RB_2.png",
+    "source_page": 161
+  },
+  {
+    "code": "RC-4",
+    "tag": "RC-4",
+    "primary_code": "RC-4",
+    "description": "Stop Line",
+    "coc_code": "11-800 11-801",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "60 x 75",
+      "oversized": "--"
+    },
+    "image": "images/RC-4.png",
+    "source_page": 161
+  },
+  {
+    "code": "RC",
+    "tag": "RC",
+    "primary_code": "RC",
+    "description": "This Lane",
+    "coc_code": "11-802 11-803",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "60 x 75",
+      "oversized": "--"
+    },
+    "image": "images/RC.png",
+    "source_page": 161
+  },
+  {
+    "code": "RB-11L RB- 11R",
+    "tag": "RB-11L RB- 11R",
+    "primary_code": "RB-11L",
+    "description": "Left/Right Turn Prohibited",
+    "coc_code": "11-804 11-806",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "90 x 90"
+    },
+    "image": "images/RB-11L.png",
+    "source_page": 161
+  },
+  {
+    "code": "RB-1",
+    "tag": "RB-1",
+    "primary_code": "RB-1",
+    "description": "Maximum Speed",
+    "coc_code": "41-0X0",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "60 x 75",
+      "oversized": "90 x 105"
+    },
+    "image": "images/RB-1.png",
+    "source_page": 161
+  },
+  {
+    "code": "N/A",
+    "tag": "N/A",
+    "primary_code": "N_A",
+    "description": "Except Bicycle Tab",
+    "coc_code": "41-252",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 30",
+      "large": "60 x 30",
+      "oversized": "90 x 45"
+    },
+    "image": "images/N_A.png",
+    "source_page": 161
+  },
+  {
+    "code": "RB",
+    "tag": "RB",
+    "primary_code": "RB",
+    "description": "On-Street Bicycle Route",
+    "coc_code": "41-281 to 41-282",
+    "sizes": {
+      "custom": "--",
+      "regular": "30 x 45",
+      "large": "45 x 60",
+      "oversized": "--"
+    },
+    "image": "images/RB_3.png",
+    "source_page": 162
+  },
+  {
+    "code": "WB-9",
+    "tag": "WB-9",
+    "primary_code": "WB-9",
+    "description": "Maximum Speed Ahead",
+    "coc_code": "13-06X",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "60 x 75",
+      "oversized": "90 x 105"
+    },
+    "image": "images/WB-9.png",
+    "source_page": 162
+  },
+  {
+    "code": "WB-1",
+    "tag": "WB-1",
+    "primary_code": "WB-1",
+    "description": "Stop Ahead",
+    "coc_code": "13-161",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/WB-1.png",
+    "source_page": 162
+  },
+  {
+    "code": "WB-2",
+    "tag": "WB-2",
+    "primary_code": "WB-2",
+    "description": "Yield Ahead",
+    "coc_code": "13-162",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/WB-2.png",
+    "source_page": 162
+  },
+  {
+    "code": "WB-36R WB-36L",
+    "tag": "WB-36R WB-36L",
+    "primary_code": "WB-36R",
+    "description": "Right/Left Object Marker",
+    "coc_code": "13-422 13-422",
+    "sizes": {
+      "custom": "--",
+      "regular": "30 x 90",
+      "large": "60 x 120",
+      "oversized": "--"
+    },
+    "image": "images/WB-36R.png",
+    "source_page": 162
+  },
+  {
+    "code": "WB-36",
+    "tag": "WB-36",
+    "primary_code": "WB-36",
+    "description": "Double Object Marker",
+    "coc_code": "13-429",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/WB-36.png",
+    "source_page": 162
+  },
+  {
+    "code": "WB-16R",
+    "tag": "WB-16R",
+    "primary_code": "WB-16R",
+    "description": "Merge",
+    "coc_code": "13-460 13-461",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "90 x 90"
+    },
+    "image": "images/WB-16R.png",
+    "source_page": 162
+  },
+  {
+    "code": "WA-35",
+    "tag": "WA-35",
+    "primary_code": "WA-35",
+    "description": "Added Lane",
+    "coc_code": "13-462 13-463",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "90 x 90"
+    },
+    "image": "images/WA-35.png",
+    "source_page": 162
+  },
+  {
+    "code": "WB-12",
+    "tag": "WB-12",
+    "primary_code": "WB-12",
+    "description": "Starburst",
+    "coc_code": "13-470",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/WB-12.png",
+    "source_page": 162
+  },
+  {
+    "code": "RA-4",
+    "tag": "RA-4",
+    "primary_code": "RA-4",
+    "description": "Pedestrian Crosswalk",
+    "coc_code": "14-307 14-308",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 75",
+      "large": "90 x 120",
+      "oversized": "--"
+    },
+    "image": "images/RA-4.png",
+    "source_page": 162
+  },
+  {
+    "code": "IB",
+    "tag": "IB",
+    "primary_code": "IB",
+    "description": "Bicycle/Pedestrian Route Marker",
+    "coc_code": "14-531",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 75",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/IB.png",
+    "source_page": 163
+  },
+  {
+    "code": "IF-3A",
+    "tag": "IF-3A",
+    "primary_code": "IF-3A",
+    "description": "Exit Gore",
+    "coc_code": "16-046 16-047",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 120",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/IF-3A.png",
+    "source_page": 163
+  },
+  {
+    "code": "TC-11",
+    "tag": "TC-11",
+    "primary_code": "TC-11",
+    "description": "Detour Direction Markers",
+    "coc_code": "19-001 to 19-007",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 45",
+      "large": "75 x 60",
+      "oversized": "--"
+    },
+    "image": "images/TC-11.png",
+    "source_page": 163
+  },
+  {
+    "code": "TC-10",
+    "tag": "TC-10",
+    "primary_code": "TC-10",
+    "description": "Detour Ahead",
+    "coc_code": "19-009",
+    "sizes": {
+      "custom": "45 x 45",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/TC-10.png",
+    "source_page": 163
+  },
+  {
+    "code": "TC-1",
+    "tag": "TC-1",
+    "primary_code": "TC-1",
+    "description": "Construction Ahead",
+    "coc_code": "19-010",
+    "sizes": {
+      "custom": "60 x 60",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/TC-1.png",
+    "source_page": 163
+  },
+  {
+    "code": "TC-4",
+    "tag": "TC-4",
+    "primary_code": "TC-4",
+    "description": "Construction Ends",
+    "coc_code": "19-012",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/TC-4.png",
+    "source_page": 163
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Through Traffic Prohibited",
+    "coc_code": "19-014",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "--"
+    },
+    "image": "images/TC.png",
+    "source_page": 163
+  },
+  {
+    "code": "TC-2",
+    "tag": "TC-2",
+    "primary_code": "TC-2",
+    "description": "Road Work",
+    "coc_code": "19-016",
+    "sizes": {
+      "custom": "60 x 60",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/TC-2.png",
+    "source_page": 163
+  },
+  {
+    "code": "TC-21",
+    "tag": "TC-21",
+    "primary_code": "TC-21",
+    "description": "Traffic Control Person Ahead",
+    "coc_code": "19-020",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "90 x 90"
+    },
+    "image": "images/TC-21.png",
+    "source_page": 163
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Be Prepared to Stop",
+    "coc_code": "19-021",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC_2.png",
+    "source_page": 163
+  },
+  {
+    "code": "TC-7",
+    "tag": "TC-7",
+    "primary_code": "TC-7",
+    "description": "Lane Closure Arrow",
+    "coc_code": "19-024 19-025",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 45",
+      "large": "90 x 45",
+      "oversized": "--"
+    },
+    "image": "images/TC-7.png",
+    "source_page": 164
+  },
+  {
+    "code": "TC-5",
+    "tag": "TC-5",
+    "primary_code": "TC-5",
+    "description": "Lane Ends Temporary",
+    "coc_code": "19-027 19-028",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/TC-5.png",
+    "source_page": 164
+  },
+  {
+    "code": "TC-34",
+    "tag": "TC-34",
+    "primary_code": "TC-34",
+    "description": "Road Narrows Temporary",
+    "coc_code": "19-029",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC-34.png",
+    "source_page": 164
+  },
+  {
+    "code": "ID",
+    "tag": "ID",
+    "primary_code": "ID",
+    "description": "Speed Fines Double",
+    "coc_code": "19-031",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x75",
+      "large": "90 x 90",
+      "oversized": "--"
+    },
+    "image": "images/ID.png",
+    "source_page": 164
+  },
+  {
+    "code": "RB-80S2 RB- 80S1",
+    "tag": "RB-80S2 RB- 80S1",
+    "primary_code": "RB-80S2",
+    "description": "End/Begins Tab",
+    "coc_code": "19-032 19-033",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 45",
+      "large": "90 x 45",
+      "oversized": "--"
+    },
+    "image": "images/RB-80S2.png",
+    "source_page": 164
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Sidewalk Closed",
+    "coc_code": "19-034",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 45",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC_3.png",
+    "source_page": 164
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Yield to Oncoming Traffic",
+    "coc_code": "19-036",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC_4.png",
+    "source_page": 164
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Crosswalk Closed",
+    "coc_code": "19-037",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 45",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC_5.png",
+    "source_page": 164
+  },
+  {
+    "code": "TC-31",
+    "tag": "TC-31",
+    "primary_code": "TC-31",
+    "description": "Chevron Alignment Temporary",
+    "coc_code": "19-042 19-043",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC-31.png",
+    "source_page": 164
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Asphalt Curing",
+    "coc_code": "19-047",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "--"
+    },
+    "image": "images/TC_6.png",
+    "source_page": 164
+  },
+  {
+    "code": "TC-47",
+    "tag": "TC-47",
+    "primary_code": "TC-47",
+    "description": "Grooved Pavement",
+    "coc_code": "19-048",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC-47.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC-49",
+    "tag": "TC-49",
+    "primary_code": "TC-49",
+    "description": "Pavement Drop-off Temporary",
+    "coc_code": "19-049",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/TC-49.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC-54",
+    "tag": "TC-54",
+    "primary_code": "TC-54",
+    "description": "Truck Entrance Temporary",
+    "coc_code": "19-050 19-051",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/TC-54.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC-25",
+    "tag": "TC-25",
+    "primary_code": "TC-25",
+    "description": "Sharp Turn Temporary",
+    "coc_code": "19-071 19-072",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "90 x 90"
+    },
+    "image": "images/TC-25.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC-26",
+    "tag": "TC-26",
+    "primary_code": "TC-26",
+    "description": "Turn Temporary",
+    "coc_code": "19-073 19-074",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "90 x 90"
+    },
+    "image": "images/TC-26.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC-29",
+    "tag": "TC-29",
+    "primary_code": "TC-29",
+    "description": "Reverse Curve Temporary",
+    "coc_code": "19-075 19-076",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "75 x 75",
+      "oversized": "90 x 90"
+    },
+    "image": "images/TC-29.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC-13",
+    "tag": "TC-13",
+    "primary_code": "TC-13",
+    "description": "Winding Road Temporary",
+    "coc_code": "19-077 19-078",
+    "sizes": {
+      "custom": "--",
+      "regular": "75 x 75",
+      "large": "90 x 90",
+      "oversized": "120 x 120"
+    },
+    "image": "images/TC-13.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC-51",
+    "tag": "TC-51",
+    "primary_code": "TC-51",
+    "description": "Bump Temporary",
+    "coc_code": "19-180",
+    "sizes": {
+      "custom": "45 x 45",
+      "regular": "75 x 75",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC-51.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Construction Marker",
+    "coc_code": "19-209",
+    "sizes": {
+      "custom": "--",
+      "regular": "30 x 90",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC_7.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Lane Closed Ahead Temporary",
+    "coc_code": "19-211 to 19-215",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 60",
+      "large": "--",
+      "oversized": "90 x 120"
+    },
+    "image": "images/TC_8.png",
+    "source_page": 165
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Road Closed",
+    "coc_code": "19-307",
+    "sizes": {
+      "custom": "--",
+      "regular": "90 x 45",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC_9.png",
+    "source_page": 166
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Local Traffic Only",
+    "coc_code": "19-308",
+    "sizes": {
+      "custom": "--",
+      "regular": "(3 lines) 90 x 45",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC_10.png",
+    "source_page": 166
+  },
+  {
+    "code": "TC-68",
+    "tag": "TC-68",
+    "primary_code": "TC-68",
+    "description": "Bicycle Lane Closed",
+    "coc_code": "19-400",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 45",
+      "large": "60 x 60",
+      "oversized": "--"
+    },
+    "image": "images/TC-68.png",
+    "source_page": 166
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Cyclists Use Detour Ahead",
+    "coc_code": "19-401",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 45",
+      "large": "60 x 60",
+      "oversized": "--"
+    },
+    "image": "images/TC_11.png",
+    "source_page": 166
+  },
+  {
+    "code": "TC-70",
+    "tag": "TC-70",
+    "primary_code": "TC-70",
+    "description": "Bicycle Lane Detour",
+    "coc_code": "19-410 to 19-415",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 45",
+      "large": "60 x 60",
+      "oversized": "--"
+    },
+    "image": "images/TC-70.png",
+    "source_page": 166
+  },
+  {
+    "code": "TC-71",
+    "tag": "TC-71",
+    "primary_code": "TC-71",
+    "description": "Bicycle Detour Ends",
+    "coc_code": "19-416",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 45",
+      "large": "60 x 60",
+      "oversized": "--"
+    },
+    "image": "images/TC-71.png",
+    "source_page": 166
+  },
+  {
+    "code": "TC-72",
+    "tag": "TC-72",
+    "primary_code": "TC-72",
+    "description": "Share the Road Single File Temporary",
+    "coc_code": "19-786",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC-72.png",
+    "source_page": 166
+  },
+  {
+    "code": "TC-72S",
+    "tag": "TC-72S",
+    "primary_code": "TC-72S",
+    "description": "Single File Temporary Tab",
+    "coc_code": "19-787",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 30",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC-72S.png",
+    "source_page": 166
+  },
+  {
+    "code": "TC-73",
+    "tag": "TC-73",
+    "primary_code": "TC-73",
+    "description": "Share the Road Temporary",
+    "coc_code": "19-788",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC-73.png",
+    "source_page": 166
+  },
+  {
+    "code": "TC-73S",
+    "tag": "TC-73S",
+    "primary_code": "TC-73S",
+    "description": "Share the Road Temporary Tab",
+    "coc_code": "19-789",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 30",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC-73S.png",
+    "source_page": 167
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Pedestrian Detour",
+    "coc_code": "19-800 to 19-855",
+    "sizes": {
+      "custom": "--",
+      "regular": "45 x 45",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC_12.png",
+    "source_page": 167
+  },
+  {
+    "code": "TC",
+    "tag": "TC",
+    "primary_code": "TC",
+    "description": "Steel Plate Ahead",
+    "coc_code": "",
+    "sizes": {
+      "custom": "--",
+      "regular": "60 x 60",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/TC_13.png",
+    "source_page": 167
+  },
+  {
+    "code": "",
+    "tag": "No Parking Decals _Example 1",
+    "primary_code": "No",
+    "description": "No Parking Decals _Example 1",
+    "coc_code": "",
+    "sizes": {
+      "custom": "--",
+      "regular": "--",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/No.png",
+    "source_page": 167
+  },
+  {
+    "code": "",
+    "tag": "No Parking Decals _Example 2",
+    "primary_code": "No",
+    "description": "No Parking Decals _Example 2",
+    "coc_code": "",
+    "sizes": {
+      "custom": "--",
+      "regular": "--",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/No_2.png",
+    "source_page": 167
+  },
+  {
+    "code": "",
+    "tag": "No Parking Decals _Example 3",
+    "primary_code": "No",
+    "description": "No Parking Decals _Example 3",
+    "coc_code": "",
+    "sizes": {
+      "custom": "--",
+      "regular": "--",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/No_3.png",
+    "source_page": 167
+  },
+  {
+    "code": "",
+    "tag": "No Parking Decals _Example 4",
+    "primary_code": "No",
+    "description": "No Parking Decals _Example 4",
+    "coc_code": "",
+    "sizes": {
+      "custom": "--",
+      "regular": "--",
+      "large": "--",
+      "oversized": "--"
+    },
+    "image": "images/No_4.png",
+    "source_page": 167
+  }
+]
