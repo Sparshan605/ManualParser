@@ -32,8 +32,17 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.local.example
 .claude
 .claude/worktrees/vibrant-antonelli-305ff4
+parser
+AZURE_SETUP.md
+
+
+# python parser (keep source; output is regenerated into public/signs)
+/parser/output/
+__pycache__/
+*.pyc
 
 # vercel
 .vercel
