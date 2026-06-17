@@ -1,9 +1,10 @@
-"use client";
+"use client"; //Mehdi is goat
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { GalleryData, SeedSign, UploadRecord, VisionResult } from "@/lib/types";
 
-// Shared rendering of an Azure AI Vision result.
+// Small reusable component: shows the AI's result (caption, tags, OCR text)
+// for any image. Used by both upload cards and seed (sample) cards.
 function AiResult({ ai, cached }: { ai: VisionResult | null; cached?: boolean }) {
   if (!ai) return null;
   return (
@@ -32,7 +33,7 @@ function AiResult({ ai, cached }: { ai: VisionResult | null; cached?: boolean })
   );
 }
 
-// A user-uploaded image: already analyzed by Azure AI Vision and persisted.
+// One card shown for a user-uploaded image. It was already analyzed when uploaded.
 function UploadCard({ rec }: { rec: UploadRecord }) {
   return (
     <div className="card">
@@ -57,7 +58,7 @@ function SeedCard({ sign }: { sign: SeedSign }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const hasCode = Boolean(sign.code);
-
+// Called when user clicks "Analyze". Sends the image URL to our own backend.
   async function analyze() {
     setLoading(true);
     setError(null);
@@ -101,10 +102,10 @@ function SeedCard({ sign }: { sign: SeedSign }) {
     </div>
   );
 }
-
+// The upload form: pick a file, preview it, then send it to the backend.
 function UploadPanel({
   blobEnabled,
-  onUploaded,
+  onUploaded,  // callback to tell the parent "a new upload was added"
 }: {
   blobEnabled: boolean;
   onUploaded: (rec: UploadRecord) => void;
@@ -114,7 +115,7 @@ function UploadPanel({
   const [preview, setPreview] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
+ // Called when the user picks (or clears) a file
   function pick(f: File | null) {
     setError(null);
     setFile(f);
