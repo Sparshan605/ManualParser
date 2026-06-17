@@ -36,7 +36,6 @@ yarn-error.log*
 .claude
 .claude/worktrees/vibrant-antonelli-305ff4
 parser
-AZURE_SETUP.md
 
 
 # python parser (keep source; output is regenerated into public/signs)
