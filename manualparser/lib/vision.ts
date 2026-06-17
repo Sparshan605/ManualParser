@@ -15,12 +15,14 @@ interface VisionApiResponse {
   tagsResult?: { values: { name: string; confidence: number }[] };
   readResult?: { blocks: { lines: { text: string }[] }[] };
 }
-
+// Converts Azure's raw, messy response into our simpler app-friendly format.
 function normalize(json: VisionApiResponse): VisionResult {
+ // Turn confidence from 0-1 into a percentage (0-100)
   const tags = (json.tagsResult?.values ?? []).map((t) => ({
     name: t.name,
     confidence: Math.round((t.confidence ?? 0) * 100),
   }));
+  // Flatten all the lines of text found in the image into one simple list
   const readText = (json.readResult?.blocks ?? []).flatMap((b) =>
     (b.lines ?? []).map((l) => l.text),
   );
@@ -32,9 +34,9 @@ function normalize(json: VisionApiResponse): VisionResult {
     : null;
   return { caption, tags, readText };
 }
-
+// Sends the image bytes to Azure's API and gets back the raw analysis.
 async function callVision(bytes: Buffer, features: string): Promise<Response> {
-  const endpoint = process.env.VISION_ENDPOINT!.replace(/\/+$/, "");
+  const endpoint = process.env.VISION_ENDPOINT!.replace(/\/+$/, ""); // remove trailing slash
   const url =
     `${endpoint}/computervision/imageanalysis:analyze` +
     `?api-version=2024-02-01&features=${encodeURIComponent(features)}`;
