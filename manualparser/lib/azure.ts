@@ -10,21 +10,21 @@ import { BlobServiceClient, type ContainerClient } from "@azure/storage-blob";
 import type { UploadRecord } from "./types";
 
 export type { UploadRecord } from "./types";
-
+// Read settings from environment variables (set outside the code, e.g. in .env)
 const CONN = process.env.AZURE_STORAGE_CONNECTION_STRING;
 const CONTAINER = process.env.AZURE_STORAGE_CONTAINER || "signs";
-
+// We only create the Azure client once and reuse it (like a cached connection).
 let _service: BlobServiceClient | null = null;
 function service(): BlobServiceClient | null {
   if (!CONN) return null;
   if (!_service) _service = BlobServiceClient.fromConnectionString(CONN);
   return _service;
 }
-
+// Simple check: is Azure Storage actually set up?
 export function blobEnabled(): boolean {
   return Boolean(CONN);
 }
-
+// Gets (or creates) the storage "container" — like a folder/bucket in the cloud.
 async function container(): Promise<ContainerClient | null> {
   const svc = service();
   if (!svc) return null;
@@ -32,7 +32,7 @@ async function container(): Promise<ContainerClient | null> {
   await c.createIfNotExists({ access: "blob" }); // blobs are publicly readable
   return c;
 }
-
+// Helper: converts a stream of data (used when reading files from Azure) into a normal string.
 async function streamToString(
   readable: NodeJS.ReadableStream | undefined,
 ): Promise<string> {
@@ -59,7 +59,7 @@ export async function uploadImage(
   return { name, url: blob.url };
 }
 
-// Save an analysis record as JSON.
+// Saves the AI analysis result as a JSON file in Azure.
 export async function saveRecord(record: UploadRecord): Promise<void> {
   const c = await container();
   if (!c) throw new Error("Blob Storage is not configured.");
@@ -70,11 +70,12 @@ export async function saveRecord(record: UploadRecord): Promise<void> {
   });
 }
 
-// List all saved upload records (newest first).
+// Reads back ALL saved analysis records, newest first.
 export async function listRecords(): Promise<UploadRecord[]> {
   const c = await container();
   if (!c) return [];
   const records: UploadRecord[] = [];
+   // Loop through every file inside the "records/" folder
   for await (const item of c.listBlobsFlat({ prefix: "records/" })) {
     try {
       const dl = await c.getBlockBlobClient(item.name).download();
@@ -83,6 +84,7 @@ export async function listRecords(): Promise<UploadRecord[]> {
       /* skip unreadable record */
     }
   }
+  // Sort so the newest upload appears first
   records.sort((a, b) => (b.createdAt || "").localeCompare(a.createdAt || ""));
   return records;
 }
